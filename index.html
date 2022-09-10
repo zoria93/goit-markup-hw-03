@@ -8,17 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+    <link
       rel="stylesheet"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/style.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
+      <div class="container header-container">
+      <nav class="header-nav header-container">
         <a href="./index.html" class="logo"
-          ><span class="logo-item">Web</span>Studio</a>
-        <ul class="header-list">
+           ><span class="logo-item">Web</span>Studio</a
+        >
+        <ul class="header-list header-container">
           <li class="list-item">
             <a href="./index.html" class="link current">Студія</a>
           </li>
@@ -29,26 +33,31 @@
         </ul>
       </nav>
       <!-- contacts -->
-      <ul class="contacts-list">
+      <ul class="contacts-list header-container">
         <li class="list-item">
           <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a>
+            >info@devstudio.com</a
+          >
         </li>
         <li class="list-item">
           <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
 
     <main class="main">
       <!-- Hero section -->
       <section class="hero-section">
+        <div class="container hero-container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="hero-btn">Замовити послугу</button>
+        </div>
       </section>
 
       <!-- Features section -->
       <section class="features-section">
+        <div class="container features-container">
         <h2 class="hidden-title">Особливості нашої роботи</h2>
         <ul class="features-list">
           <li class="list-item">
@@ -79,76 +88,98 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- box section -->
       <section class="box-section">
+        <div class="container box-container">
         <h2 class="box-title">Чим ми займаємося</h2>
         <ul class="box-list">
           <li class="list-item">
             <img
               src="./img/boxhtml.jpg"
               alt="людина тримає руки на клавіатурі"
-              width="370"/>
+              width="370"
+            />
           </li>
           <li class="list-item">
             <img
               src="./img/box.jpg"
               alt="людина в одній руці тримає телефон, а друга рука на клавіатурі"
-              width="370"/>
+              width="370"
+            />
           </li>
           <li class="list-item">
             <img
               src="./img/boxcss.jpg"
               alt="людина в руці тримає планшет"
-              width="370"/>
+              width="370"
+            />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Team section -->
       <section class="team-section">
+        <div class="container team-container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="tem-list">
           <li class="list-item">
             <img
               src="./img/img-igor.jpg"
               alt="чоловік з бородою в очках"
-              width="270"/>
+              width="270"
+            />
+            <div class="team-card">
             <h3 class="name-title">Ігор Дем'яненко</h3>
             <p lang="en" class="team-text">Product Designer</p>
+            </div>
           </li>
           <li class="list-item">
             <img
               src="./img/img-olga.jpg"
               alt="дівчина в очках з білим волосям"
-              width="270"/>
+              width="270"
+            />
+            <div class="team-card">
             <h3 class="name-title">Ольга Рєпіна</h3>
             <p lang="en" class="team-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="list-item">
             <img
               src="./img/img-mikola.jpg"
               alt="чоловік посміхається"
-              width="270"/>
+              width="270"
+            />
+            <div class="team-card">
             <h3 class="name-title">Микола Тарасов</h3>
             <p lang="en" class="team-text">Marketing</p>
+            </div>
           </li>
           <li class="list-item">
             <img
               src="./img/img-mike.jpg"
               alt="чоловік з бородою в очках"
-              width="270"/>
+              width="270"
+            />
+            <div class="team-card">
             <h3 class="name-title">Михайло Єрмаков</h3>
             <p lang="en" class="team-text">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
+      <div class="container contacts-container">
       <a href="./index.html" class="logo"
-        ><span class="logo-item">Web</span>Studio</a>
+        ><span class="logo-item">Web</span>Studio</a
+      >
       <!-- address -->
       <address class="address-box">
         <ul class="list-address">
@@ -158,20 +189,22 @@
               target="_blank"
               rel="noreferrer noopener"
               class="link address"
-              ><span class="address-text"
-                >м. Київ, пр-т Лесі Українки, 26</span>
-                </a>
+              ><span class="address-text">м. Київ, пр-т Лесі Українки, 26</span>
+            </a>
           </li>
           <li class="list-item">
             <a href="mailto:info@devstudio.com" class="link address"
-              >info@devstudio.com</a>
+              >info@devstudio.com</a
+            >
           </li>
           <li class="list-item">
             <a href="tel:+380961111111" class="link address"
-              >+38 096 111 11 11</a>
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

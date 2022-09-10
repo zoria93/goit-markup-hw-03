@@ -8,17 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="header-nav">
+     <header class="header">
+      <div class="container header-container">
+      <nav class="header-nav header-container">
         <a href="./index.html" class="logo"
-          ><span class="logo-item">Web</span>Studio</a>
-        <ul class="header-list">
+           ><span class="logo-item">Web</span>Studio</a
+        >
+        <ul class="header-list header-container">
           <li class="list-item">
             <a href="./index.html" class="link">Студія</a>
           </li>
@@ -28,19 +30,23 @@
           <li class="list-item"><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts-list">
+      <!-- contacts -->
+      <ul class="contacts-list header-container">
         <li class="list-item">
           <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a>
+            >info@devstudio.com</a
+          >
         </li>
         <li class="list-item">
           <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <!-- portfolio section -->
     <main>
       <section class="portfolio-section">
+        <div class="container">
         <h1 class="hidden-title">Портфоліо</h1>
         <ul class="btn-list">
           <li class="list-item">
@@ -64,75 +70,96 @@
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img1.jpg" alt="ноутбук" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Технокряк</h2>
               <p class="portfolio-text">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img2.jpg" alt="чоловіки і м'яч" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Постер New Orlean vs Golden Star</h2>
               <p class="portfolio-text">Дизайн</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img3.jpg" alt="риба" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Ресторан Seafood</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img4.jpg" alt="наушники" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Проєкт Prime</h2>
               <p class="portfolio-text">Маркетинг</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img5.jpg" alt="дві коробки" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Проєкт Boxes</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img6.jpg" alt="монітор" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Inspiration has no Borders</h2>
               <p class="portfolio-text">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img7.jpg" alt="книга" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Видання Limited Edition</h2>
               <p class="portfolio-text">Дизайн</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img8.jpg" alt="бірка" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Проєкт LAB</h2>
               <p class="portfolio-text">Маркетинг</p>
+              </div>
             </a>
           </li>
           <li class="list-item">
             <a href="" class="portfolio link"
               ><img src="./img/img9.jpg" alt="ноутбук" width="370" />
+              <div class="portfolio-card">
               <h2 class="title-item">Growing Business</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
+      <div class="container contacts-container">
       <a href="./index.html" class="logo"
-        ><span class="logo-item">Web</span>Studio</a>
+        ><span class="logo-item">Web</span>Studio</a
+      >
       <!-- address -->
-      <address class="address">
+      <address class="address-box">
         <ul class="list-address">
           <li class="list-item">
             <a
@@ -140,20 +167,22 @@
               target="_blank"
               rel="noreferrer noopener"
               class="link address"
-              ><span class="address-text"
-                >м. Київ, пр-т Лесі Українки, 26</span>
-              </a>
+              ><span class="address-text">м. Київ, пр-т Лесі Українки, 26</span>
+            </a>
           </li>
           <li class="list-item">
             <a href="mailto:info@devstudio.com" class="link address"
-              >info@devstudio.com</a>
+              >info@devstudio.com</a
+            >
           </li>
           <li class="list-item">
             <a href="tel:+380961111111" class="link address"
-              >+38 096 111 11 11</a>
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
