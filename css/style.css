@@ -138,7 +138,7 @@ ul {
   color: var(--first-bg-color);
 }
 
-.hero-container {
+.hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -184,11 +184,6 @@ ul {
   overflow: hidden;
 }
 
-.features-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features-list {
   display: flex;
 }
@@ -232,7 +227,7 @@ ul {
   margin-right: 30px;
 }
 
-.box-container {
+.box-section {
   padding-bottom: 94px;
 }
 
@@ -257,11 +252,6 @@ ul {
 
 .tem-list img {
   display: block;
-}
-
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .tem-list .list-item:not(:last-child) {
@@ -304,6 +294,9 @@ ul {
 
 .footer {
   background-color: var(--secondary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 .footer .logo {
@@ -319,8 +312,7 @@ ul {
 
 .contacts-container {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 }
 
 .address-box {
@@ -365,11 +357,6 @@ ul {
 
 /* portfolio */
 
-.portfolio-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .btn-list {
   display: flex;
   justify-content: center;
@@ -399,7 +386,6 @@ ul {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  padding: 6px 25px;
   color: var(--first-bg-color);
   background-color: var(--accent-color);
 }
@@ -444,4 +430,11 @@ ul {
 
 .portfolio-list img {
   display: block;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 1px solid tomato;
+
 }
